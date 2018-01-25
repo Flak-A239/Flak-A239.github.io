@@ -1,281 +1,264 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1504.83">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-    span.Apple-tab-span {white-space:pre}
-  </style>
-</head>
+    <head>
+<title>Portfolio</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<style>
+    
+    .SocialLinks {
+    color: black;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: block;
+    text-decoration-line: none;
+    background-color: white;
+    }
+    
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('http://www.ideasphere.com/wp-content/uploads/2016/08/Savin-NY-Website-Background-Web-1.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("https://wallpaperscraft.com/image/triangle_light_blurred_88541_1920x1080.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("http://wallup.net/wp-content/uploads/2016/01/164804-abstract-triangle.jpg");
+    min-height: 400px;
+}
+    
+.bgimg-4 {
+    background-image: url("http://wallpapercraft.net/wp-content/uploads/2016/06/Photos-Abstract-Download.jpg");
+    min-height: 400px;
+    }
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+  
+</style>
+
+    </head>    
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;head&gt;</p>
-<p class="p1">&lt;title&gt;Portfolio&lt;/title&gt;</p>
-<p class="p1">&lt;link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"&gt;</p>
-<p class="p1">&lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"&gt;</p>
-<p class="p1">&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;</p>
-<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</p>
-<p class="p2"><span class="Apple-tab-span">	</span></p>
-<p class="p1">&lt;style&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>.SocialLinks {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>color: black;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>padding: 14px 25px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>text-align: center;<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>text-decoration: none;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>display: block;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>text-decoration-line: none;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>background-color: white;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1">body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}</p>
-<p class="p1">body, html {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>height: 100%;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">/* Create a Parallax Effect */</p>
-<p class="p1">.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>background-attachment: fixed;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>background-position: center;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>background-repeat: no-repeat;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>background-size: cover;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">/* First image (Logo. Full height) */</p>
-<p class="p1">.bgimg-1 {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>background-image: url('http://www.ideasphere.com/wp-content/uploads/2016/08/Savin-NY-Website-Background-Web-1.jpg');</p>
-<p class="p1"><span class="Apple-converted-space">    </span>min-height: 100%;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">/* Second image (Portfolio) */</p>
-<p class="p1">.bgimg-2 {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>background-image: url("https://wallpaperscraft.com/image/triangle_light_blurred_88541_1920x1080.jpg");</p>
-<p class="p1"><span class="Apple-converted-space">    </span>min-height: 400px;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">/* Third image (Contact) */</p>
-<p class="p1">.bgimg-3 {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>background-image: url("http://wallup.net/wp-content/uploads/2016/01/164804-abstract-triangle.jpg");</p>
-<p class="p1"><span class="Apple-converted-space">    </span>min-height: 400px;</p>
-<p class="p1">}</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1">.bgimg-4 {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>background-image: url("http://wallpapercraft.net/wp-content/uploads/2016/06/Photos-Abstract-Download.jpg");</p>
-<p class="p1"><span class="Apple-converted-space">    </span>min-height: 400px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1">.w3-wide {letter-spacing: 10px;}</p>
-<p class="p1">.w3-hover-opacity {cursor: pointer;}</p>
-<p class="p2"><br></p>
-<p class="p1">/* Turn off parallax scrolling for tablets and phones */</p>
-<p class="p1">@media only screen and (max-device-width: 1024px) {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.bgimg-1, .bgimg-2, .bgimg-3 {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>background-attachment: scroll;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><span class="Apple-converted-space">  </span></p>
-<p class="p1">&lt;/style&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/head&gt; <span class="Apple-converted-space">   </span></p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- Navbar (sit on top) --&gt;</p>
-<p class="p1">&lt;div class="w3-top"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-bar" id="myNavbar"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;i class="fa fa-bars"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#home" class="w3-bar-item w3-button"&gt;HOME&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#about" class="w3-bar-item w3-button w3-hide-small"&gt;&lt;i class="fa fa-user"&gt;&lt;/i&gt; ABOUT&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"&gt;&lt;i class="fa fa-th"&gt;&lt;/i&gt; PORTFOLIO&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#contact" class="w3-bar-item w3-button w3-hide-small"&gt;&lt;i class="fa fa-envelope"&gt;&lt;/i&gt; CONTACT&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Navbar on small screens --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()"&gt;ABOUT&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()"&gt;PORTFOLIO&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()"&gt;CONTACT&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- First Parallax Image with Logo Text --&gt;</p>
-<p class="p1">&lt;div class="bgimg-1 w3-display-container w3-opacity-min" id="home"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-display-middle" style="white-space:nowrap;"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"&gt;ERIK &lt;span class="w3-hide-small"&gt; ALTOFFER&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- Container (About Section) --&gt;</p>
-<p class="p1">&lt;div class="w3-content w3-container w3-padding-64" id="about"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;h3 class="w3-center"&gt;ABOUT ME&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;p class="w3-center"&gt;&lt;em&gt;I make websites&lt;/em&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;p class="w3-center w3-large"&gt;I am a 17 year old free-lance web devolper and graphic design artist. I build websites, as a matter of fact I built this one. As of right now I work well with HTML, CSS, and JavaScript. I am currently learning Python and would like to learn about cyber-security and OS development.</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;br&gt;</p>
-<p class="p1">I am proficient in video editing and graphic design as well.</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;br&gt;</p>
-<p class="p1">I'd like to handle any offers and/or requests on a one-to-one level.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-row"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-col m6 w3-center w3-padding-large"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;&lt;b&gt;&lt;i class="fa fa-user w3-margin-right"&gt;&lt;/i&gt;Altoffer&lt;/b&gt;&lt;/p&gt;&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;img src="https://avatars3.githubusercontent.com/u/33723204?s=460&amp;v=4" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Hide this text on small devices --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-col m6 w3-hide-small w3-padding-large"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="w3-xlarge w3-padding-16"&gt;So please contact me if you're interested in a wallpaper, website design, and/or a request &lt;a href="#contact"&gt;here&lt;/a&gt;.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;p class="w3-large w3-center w3-padding-16"&gt;I am good at:&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;p class="w3-wide"&gt;&lt;i class="fa fa-camera"&gt;&lt;/i&gt;Graphic Design&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-light-grey"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%"&gt;85%&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;p class="w3-wide"&gt;&lt;i class="fa fa-laptop"&gt;&lt;/i&gt;Web Design&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-light-grey"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:60%"&gt;60%&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;p class="w3-wide"&gt;&lt;i class="fa fa-photo"&gt;&lt;/i&gt;Video Editing&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-light-grey"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%"&gt;90%&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;br&gt;</p>
-<p class="p2"><span class="Apple-tab-span">	</span></p>
-<p class="p1">&lt;!-- Second Parallax Image with Portfolio Text --&gt;</p>
-<p class="p1">&lt;div id="portfolio" class="bgimg-2 w3-display-container w3-opacity-min"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-display-middle"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;span class="w3-xxlarge w3-text-white w3-wide"&gt;PORTFOLIO&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space"> </span>&lt;!-- Container (Portfolio Section) --&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">  <span class="Apple-tab-span">	</span></span>&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div align="center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;img class="w3-image w3-round" alt="Alex" src="https://lh3.googleusercontent.com/l0ZaFIMV5ssW7jDcQePY86-wQnEPaTSDAcphHjORupwcs4sP9qiowyuz6Lp8TRwRPcLKUruljznjXdjF-H7pnGcoMzTx3iDBs2WTOX_4AAXpS-QIcelSTiwqxn8jDn8REdWLS7RRpP41BfsbK4sx1zP8ujaMUELbOhwT9pF2-5xabXGYf1FlsK7OZmnd-3y1dw14CY03N_GXIO_qE-bdyjZ_DySq6nWaZIUJepW86704TTH-RFcSkCp0sxgd4JD_JWt3kUto1-pXdCLKlbjnCyfV_n9tOmpwwigXQ0lUH_dhyJfkdufCvwkyWLZSVleL2gO1lkzDN-BwystKsOBFELCj1CJrfhQk1e9m9yAoWrC_gkYuC-71TUOwUfE-tWB1qm6sfa_dv-nZV8gWdi8zePZIorlF6jEu3Wm3bS3GicwTnxl9ZxplpjxfPrfhVsbnYPXoUtx4qD5nAQxMdraBwSEOhAqehhbDt7H2QOHDqx9b2tUcoz2xPR5XKxERQx6-iM2-FwihXhQ_Qa1vZC_SrXWr0EtnbiCrynl90ZjYQUs15JRV3OzyV3JozgdLvV4_b_IFPlgf4QvOgXuJosWfkXBgOLM7HQXXDP89R6c=w1440-h720-no"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p align="center"&gt;My Yharnam Wallpaper&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;br&gt;</p>
-<p class="p2"><span class="Apple-converted-space">        </span></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p data-height="476" data-theme-id="0" data-slug-hash="YEOZKr" data-default-tab="result" data-user="Flak-A239" data-embed-version="2" data-pen-title="Quote Machine" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Flak-A239/pen/YEOZKr/"&gt;Quote Machine&lt;/a&gt; by Erik Altoffer (&lt;a href="https://codepen.io/Flak-A239"&gt;@Flak-A239&lt;/a&gt;) on &lt;a href="https://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;</p>
-<p class="p1">&lt;script async src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;</p>
-<p class="p1">&lt;br&gt;</p>
-<p class="p2"><span class="Apple-tab-span">	</span> <span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div style="background-color: black" align="center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  <span class="Apple-tab-span">	</span></span>&lt;img class="w3-image w3-round" alt="Nazgul" src="https://lh3.googleusercontent.com/PMbgB_XgbQLhD-XN81tpDao5lkhy-aFcwoo9DAtTJscASy8pffryayusnH3Lp9e4W9kTiBP4Ycw2eFPQN6mt7ez59NeKScHq4sNQKjPlYimZ98BJxqiXVDxJIqRuQqJUIxsmocnehl2b3t8-wBFdtZNiZQnRjtEe9sLCSkRDYP4ajTn17y5WVPFDnea_mONSCkV9YFKwbrNWta1VNvDdGyQDkc5hB25UtACEHVck5RdDy76sgjL1Ne1Ur5OABWItGzFvPLKndjsuwM3DTirjzWBQOzsG_tQYNz3ernMqJrmPpVcR-Kcmw1qbAOubYZKZ7v4gelTAZexI7JYiOkzTG-xIQ7btskFqLCiOohQ5WrRZBRNo9Me836WUlKT-Kb5WCxREn7ebxDRk9vu26XqDk59bZnuDakPfZ7TiThU0hlCpA6SZhf6-dYPx7SAOKskvesxmdvnmdv59bFwvdM-zOU1OlD1LQJ4SUT-9V77_O5D84P80RvYw640sHeRtvFqyPUzFdVhBqFT5hYZIbrl9ESuG5z7iC7RlPQ0-ccjpXrv1Z34zvLskzDWgpgQqmDstchxjOoS9BMV9J1DQ1JP9ggudJPCbvqygLKkYfrQ=w462-h640-no"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p align="center"&gt;Nazgul&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  <span class="Apple-tab-span">	</span></span>&lt;br&gt;</p>
-<p class="p2"><span class="Apple-converted-space">  <span class="Apple-tab-span">	</span></span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div align="center" style="background-color: black"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;img class="w3-image w3-round" alt="Floki" src="https://lh3.googleusercontent.com/ashR_dvQU56ajhXL0ES-baQWHdzFT-2uFllhNNQHr3urxM7YlRlMK165hNxscVexqfCQwIdkC0wkwSN4Wyy3cq2Fc7_uozimnJdMVM3p-idnPKND78F--5WPAeZiWc2tL6zpd6Js8Bna74nE552MBHB2HVyf7mMAWmkvAaXHh6RGPBD0wyvoO7U7sQ1nYBbTlLGyUXBW2KqXd3iGwhGBTq0Wg9KuKttZ4eDAb_H7_grEvgv4P3p0dPdZUKWCYR-rq9NOEc2bysj4WIYNNcvVk6ZiCe4MxZfSLnwGzopC0hg_RHSqfrbhTGTCztjvO2H8DBxcaeAPHGlzFd1dczzsadiQehk_8Be1W9AA-k1j9VTWCaadI72k-ZqjPz8VrKA6lBay8Ij1IniwymrBUtFIftynR9DHnvYAtPerkUWq6mTGGOG4gMLD9X0BuWWViFk-KSVHBZwhS8JaWMOlJlYObK58KLDtF7rty607oI-lXcnB0-pLh8cMEWSOds4FoSlQp-IzIDkJMy4virRgzWContPY0B7yp_zbepL8B90j_DoZ5iSGALYjrSTmB6gUgxdh20nCikEhxvprnhmSZGFHGxhxV7ki5E-leRCwjOM=w678-h786-no"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p align="center"&gt;Floki&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;br&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p data-height="265" data-theme-id="dark" data-slug-hash="BJaxNm" data-default-tab="result" data-user="Flak-A239" data-embed-version="2" data-pen-title="Wiki Pen" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Flak-A239/pen/BJaxNm/"&gt;Wiki Pen&lt;/a&gt; by Erik Altoffer (&lt;a href="https://codepen.io/Flak-A239"&gt;@Flak-A239&lt;/a&gt;) on &lt;a href="https://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;script async src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">  <span class="Apple-tab-span">	</span></span>&lt;div style="background-color: #1c1c1c" align="center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;img class="e3-image w3-round" alt="Good Hunter" src="https://lh3.googleusercontent.com/J5Cmr8lF0kihxiCrl9qVGQi7DF4QmNn5ksEmQJVPek5olJWpCUUf2vc1tLlJnazRO-Cs9cS1zyT6oBUcFaSBdzOAcj8fGosef-gorwT6yHs_08DygCBVhAuqdW8ZILi9gCsasTUnSI4itb6N0MmXv5JT0UHB8BlfQcLu5gpcvHAB1IEqV4qo8nvct3ZS33obHX2kHdgvd9KZwrJG9GW76iBuSuXZ9wmB_aI3hk04nGD3jCPAssqUJlxNNf0bKqadS_pPJqcuZ-zWgVeQ-02POC7z63y6fGf9pLN1dEAksSpIZGqj_IWcrkkJNUkaeGyU8RDYYdjP8kIJ-mYfnqcBgpZEr8IBr_oVUmBH_J6tZm8e9KRkEiWjSCJ9T-sVqpwoy7TPwk5L9lchZWxQvDB16bidgcka9T20j6M4-k-QX_EHM7jemY-fSqaV0do1vISrAXDGTes83uyX_vITtZOxd35zcBvmJLT27I3OML0CFMIKQH7R8P7it60OyYf2guiH-biiOqiCJJ2FaI2u0GE0sDfD-DGrbj9V1ezZ684qA2sCMDT9zgwmHa4Rs6wgeNIGEtfIJyyDsrX6ZU900ebAbNeKFQ6V0kn3GBlLGLw=w505-h734-no"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p align="center"&gt;Good Hunter&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;br&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div style="background-color: #7e7e7e" align="center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    <span class="Apple-tab-span">	</span></span>&lt;img class="e3-image w3-round" alt="Red Hood" src="https://lh3.googleusercontent.com/bk2nwBYBrYLJpfcrDkjyjf80BXCLVzXUMB2JxZt9O4vGASEpDXLo2syDVVxBsW8jvZqxHmUQbgZ_0e5NB3HfWmMfY13HJIkp7jZFYQ2nhkl_utlChax70aiIHJaBNkAi2AiDRfa9kZptuRJJOWqA1rVkHvYSWCstLIJ3TjOcBJJaeK5EhwhuDGCS-aEAlh3Rhkfvvf6Mk7P-9OcyMSHdw7ivLWSnNX6cM5tPPkADw1d3UvKtNAEtu9ij3aaOiLKMn8jkSnY5K0Zu7JJINTA1P2k73V4NfnhJNEVsbH_63g2D8AbwIrfWbboaRK3kF3VgMyP2-jDDTA0xUBpbg60kWlpFG4D_E_pHrG_s_U17jbxsxjk_KPdGIJjR-3zN3DwL8e6xmZD2A3pwzFwbkWPpbfjRO86arqmShmAAXkD2w3UMKEigLi_hE7UvPgBWwivVCs9S42KSOfWXjBk-sZ9xzN-lxd5dMfsru7DqAuKrEfZeUUzF4ONuZ2MEyr3mr-iHPdoA1h1QcaqyVp58pmq0B95YKuV7Jls2jks9bgfk5uanEQqauvc0ogXwGP2qa61k3WkDi0B80n5KXH6tRTnq04F5gr-07wnZrD8fxXY=w564-h705-no"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    <span class="Apple-tab-span">	</span></span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p align="center"&gt;Jason Todd&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;br&gt;</p>
-<p class="p2"><br></p>
-<p class="p2"><span class="Apple-converted-space">  </span></p>
-<p class="p1">&lt;!-- Modal for full size images on click--&gt;</p>
-<p class="p1">&lt;div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"&gt;&lt;i class="fa fa-remove"&gt;&lt;/i&gt;&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;img id="img01" class="w3-image"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p id="caption" class="w3-opacity w3-large"&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- Third Parallax Image with Portfolio Text --&gt;</p>
-<p class="p1">&lt;div class="bgimg-3 w3-display-container w3-opacity-min"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-display-middle"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">     </span>&lt;span class="w3-xxlarge w3-wide w3-text-white"&gt;CONTACT&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- Container (Contact Section) --&gt;</p>
-<p class="p1">&lt;div class="w3-content w3-container w3-padding-64" id="contact"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;h3 class="w3-center"&gt;WHERE I WORK&lt;/h3&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-row w3-padding-32 w3-section"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-col m4 w3-container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-col m8 w3-panel"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-large w3-margin-bottom"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"&gt;&lt;/i&gt; Norman, OK&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"&gt;&lt;/i&gt; Phone: +1 918-706-5830&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"&gt;&lt;/i&gt; Email: erikaltoffer@gmail.com&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;Leave me a note here:&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;form action="mailto:erikaltoffer@gmail.com" method="post" enctype="text/plain"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="w3-row-padding" style="margin:0 -16px 8px -16px"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="w3-half"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="w3-half"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="w3-button w3-black w3-right w3-section" type="submit"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;i class="fa fa-paper-plane"&gt;&lt;/i&gt; SEND MESSAGE</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/form&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- Footer --&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1">&lt;!-- Fourth Parallax With "The End" Text --&gt;</p>
-<p class="p1">&lt;div class="bgimg-4 w3-display-container w3-opacity-min"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-display-middle"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">     </span>&lt;span class="w3-xxlarge w3-wide w3-text-white"&gt;THE END&lt;span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p1">&lt;footer class="w3-center w3-black w3-padding-64 w3-opacity"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#home" class="w3-button w3-light-grey"&gt;&lt;i class="fa fa-arrow-up w3-margin-right"&gt;&lt;/i&gt;To the top&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="https://www.instagram.com/erik_5.56/"&gt;&lt;p class="SocialLinks w3-large"&gt;Instagram&lt;/p&gt;&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div&gt;</p>
-<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">    </span>&lt;a href="https://github.com/Flak-A239"&gt;&lt;p class="SocialLinks w3-large"&gt;GitHub&lt;/p&gt;&lt;/a&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/footer&gt;</p>
-<p class="p2"><span class="Apple-converted-space"> </span></p>
-<p class="p2"><br></p>
-<p class="p1">&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;script async defer src="//platform.instagram.com/en_US/embeds.js"&gt;&lt;/script&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;script async src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">ERIK <span class="w3-hide-small"> ALTOFFER</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center"><em>I make websites</em></p>
+  <p class="w3-center w3-large">I am a 17 year old free-lance web devolper and graphic design artist. I build websites, as a matter of fact I built this one. As of right now I work well with HTML, CSS, and JavaScript. I am currently learning Python and would like to learn about cyber-security and OS development.
+      <br>
+I am proficient in video editing and graphic design as well.
+      <br>
+I'd like to handle any offers and/or requests on a one-to-one level.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Altoffer</b></p><br>
+      <img src="https://avatars3.githubusercontent.com/u/33723204?s=460&v=4" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p class="w3-xlarge w3-padding-16">So please contact me if you're interested in a wallpaper, website design, and/or a request <a href="#contact">here</a>.</p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">I am good at:</p>
+  <p class="w3-wide"><i class="fa fa-camera"></i>Graphic Design</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:60%">60%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-photo"></i>Video Editing</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+    <br>
+	
+<!-- Second Parallax Image with Portfolio Text -->
+<div id="portfolio" class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+    
+ <!-- Container (Portfolio Section) -->
+    
+  	<br>
+    <div align="center">
+    <img class="w3-image w3-round" alt="Alex" src="https://lh3.googleusercontent.com/l0ZaFIMV5ssW7jDcQePY86-wQnEPaTSDAcphHjORupwcs4sP9qiowyuz6Lp8TRwRPcLKUruljznjXdjF-H7pnGcoMzTx3iDBs2WTOX_4AAXpS-QIcelSTiwqxn8jDn8REdWLS7RRpP41BfsbK4sx1zP8ujaMUELbOhwT9pF2-5xabXGYf1FlsK7OZmnd-3y1dw14CY03N_GXIO_qE-bdyjZ_DySq6nWaZIUJepW86704TTH-RFcSkCp0sxgd4JD_JWt3kUto1-pXdCLKlbjnCyfV_n9tOmpwwigXQ0lUH_dhyJfkdufCvwkyWLZSVleL2gO1lkzDN-BwystKsOBFELCj1CJrfhQk1e9m9yAoWrC_gkYuC-71TUOwUfE-tWB1qm6sfa_dv-nZV8gWdi8zePZIorlF6jEu3Wm3bS3GicwTnxl9ZxplpjxfPrfhVsbnYPXoUtx4qD5nAQxMdraBwSEOhAqehhbDt7H2QOHDqx9b2tUcoz2xPR5XKxERQx6-iM2-FwihXhQ_Qa1vZC_SrXWr0EtnbiCrynl90ZjYQUs15JRV3OzyV3JozgdLvV4_b_IFPlgf4QvOgXuJosWfkXBgOLM7HQXXDP89R6c=w1440-h720-no">
+    </div>
+    <p align="center">My Yharnam Wallpaper</p>
+        <br>
+        
+        <p data-height="476" data-theme-id="0" data-slug-hash="YEOZKr" data-default-tab="result" data-user="Flak-A239" data-embed-version="2" data-pen-title="Quote Machine" class="codepen">See the Pen <a href="https://codepen.io/Flak-A239/pen/YEOZKr/">Quote Machine</a> by Erik Altoffer (<a href="https://codepen.io/Flak-A239">@Flak-A239</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<br>
+	  
+    <div style="background-color: black" align="center">
+  	<img class="w3-image w3-round" alt="Nazgul" src="https://lh3.googleusercontent.com/PMbgB_XgbQLhD-XN81tpDao5lkhy-aFcwoo9DAtTJscASy8pffryayusnH3Lp9e4W9kTiBP4Ycw2eFPQN6mt7ez59NeKScHq4sNQKjPlYimZ98BJxqiXVDxJIqRuQqJUIxsmocnehl2b3t8-wBFdtZNiZQnRjtEe9sLCSkRDYP4ajTn17y5WVPFDnea_mONSCkV9YFKwbrNWta1VNvDdGyQDkc5hB25UtACEHVck5RdDy76sgjL1Ne1Ur5OABWItGzFvPLKndjsuwM3DTirjzWBQOzsG_tQYNz3ernMqJrmPpVcR-Kcmw1qbAOubYZKZ7v4gelTAZexI7JYiOkzTG-xIQ7btskFqLCiOohQ5WrRZBRNo9Me836WUlKT-Kb5WCxREn7ebxDRk9vu26XqDk59bZnuDakPfZ7TiThU0hlCpA6SZhf6-dYPx7SAOKskvesxmdvnmdv59bFwvdM-zOU1OlD1LQJ4SUT-9V77_O5D84P80RvYw640sHeRtvFqyPUzFdVhBqFT5hYZIbrl9ESuG5z7iC7RlPQ0-ccjpXrv1Z34zvLskzDWgpgQqmDstchxjOoS9BMV9J1DQ1JP9ggudJPCbvqygLKkYfrQ=w462-h640-no">
+    </div>
+      <p align="center">Nazgul</p>
+  	<br>
+  	
+    <div align="center" style="background-color: black">
+        <img class="w3-image w3-round" alt="Floki" src="https://lh3.googleusercontent.com/ashR_dvQU56ajhXL0ES-baQWHdzFT-2uFllhNNQHr3urxM7YlRlMK165hNxscVexqfCQwIdkC0wkwSN4Wyy3cq2Fc7_uozimnJdMVM3p-idnPKND78F--5WPAeZiWc2tL6zpd6Js8Bna74nE552MBHB2HVyf7mMAWmkvAaXHh6RGPBD0wyvoO7U7sQ1nYBbTlLGyUXBW2KqXd3iGwhGBTq0Wg9KuKttZ4eDAb_H7_grEvgv4P3p0dPdZUKWCYR-rq9NOEc2bysj4WIYNNcvVk6ZiCe4MxZfSLnwGzopC0hg_RHSqfrbhTGTCztjvO2H8DBxcaeAPHGlzFd1dczzsadiQehk_8Be1W9AA-k1j9VTWCaadI72k-ZqjPz8VrKA6lBay8Ij1IniwymrBUtFIftynR9DHnvYAtPerkUWq6mTGGOG4gMLD9X0BuWWViFk-KSVHBZwhS8JaWMOlJlYObK58KLDtF7rty607oI-lXcnB0-pLh8cMEWSOds4FoSlQp-IzIDkJMy4virRgzWContPY0B7yp_zbepL8B90j_DoZ5iSGALYjrSTmB6gUgxdh20nCikEhxvprnhmSZGFHGxhxV7ki5E-leRCwjOM=w678-h786-no">
+    </div>
+    <p align="center">Floki</p>
+    <br>
+    
+    <p data-height="265" data-theme-id="dark" data-slug-hash="BJaxNm" data-default-tab="result" data-user="Flak-A239" data-embed-version="2" data-pen-title="Wiki Pen" class="codepen">See the Pen <a href="https://codepen.io/Flak-A239/pen/BJaxNm/">Wiki Pen</a> by Erik Altoffer (<a href="https://codepen.io/Flak-A239">@Flak-A239</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+		<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    </div>
+    
+  	<div style="background-color: #1c1c1c" align="center">
+    <img class="e3-image w3-round" alt="Good Hunter" src="https://lh3.googleusercontent.com/J5Cmr8lF0kihxiCrl9qVGQi7DF4QmNn5ksEmQJVPek5olJWpCUUf2vc1tLlJnazRO-Cs9cS1zyT6oBUcFaSBdzOAcj8fGosef-gorwT6yHs_08DygCBVhAuqdW8ZILi9gCsasTUnSI4itb6N0MmXv5JT0UHB8BlfQcLu5gpcvHAB1IEqV4qo8nvct3ZS33obHX2kHdgvd9KZwrJG9GW76iBuSuXZ9wmB_aI3hk04nGD3jCPAssqUJlxNNf0bKqadS_pPJqcuZ-zWgVeQ-02POC7z63y6fGf9pLN1dEAksSpIZGqj_IWcrkkJNUkaeGyU8RDYYdjP8kIJ-mYfnqcBgpZEr8IBr_oVUmBH_J6tZm8e9KRkEiWjSCJ9T-sVqpwoy7TPwk5L9lchZWxQvDB16bidgcka9T20j6M4-k-QX_EHM7jemY-fSqaV0do1vISrAXDGTes83uyX_vITtZOxd35zcBvmJLT27I3OML0CFMIKQH7R8P7it60OyYf2guiH-biiOqiCJJ2FaI2u0GE0sDfD-DGrbj9V1ezZ684qA2sCMDT9zgwmHa4Rs6wgeNIGEtfIJyyDsrX6ZU900ebAbNeKFQ6V0kn3GBlLGLw=w505-h734-no">
+    </div>
+    <p align="center">Good Hunter</p>
+    <br>
+    
+    <div style="background-color: #7e7e7e" align="center">
+    	<img class="e3-image w3-round" alt="Red Hood" src="https://lh3.googleusercontent.com/bk2nwBYBrYLJpfcrDkjyjf80BXCLVzXUMB2JxZt9O4vGASEpDXLo2syDVVxBsW8jvZqxHmUQbgZ_0e5NB3HfWmMfY13HJIkp7jZFYQ2nhkl_utlChax70aiIHJaBNkAi2AiDRfa9kZptuRJJOWqA1rVkHvYSWCstLIJ3TjOcBJJaeK5EhwhuDGCS-aEAlh3Rhkfvvf6Mk7P-9OcyMSHdw7ivLWSnNX6cM5tPPkADw1d3UvKtNAEtu9ij3aaOiLKMn8jkSnY5K0Zu7JJINTA1P2k73V4NfnhJNEVsbH_63g2D8AbwIrfWbboaRK3kF3VgMyP2-jDDTA0xUBpbg60kWlpFG4D_E_pHrG_s_U17jbxsxjk_KPdGIJjR-3zN3DwL8e6xmZD2A3pwzFwbkWPpbfjRO86arqmShmAAXkD2w3UMKEigLi_hE7UvPgBWwivVCs9S42KSOfWXjBk-sZ9xzN-lxd5dMfsru7DqAuKrEfZeUUzF4ONuZ2MEyr3mr-iHPdoA1h1QcaqyVp58pmq0B95YKuV7Jls2jks9bgfk5uanEQqauvc0ogXwGP2qa61k3WkDi0B80n5KXH6tRTnq04F5gr-07wnZrD8fxXY=w564-h705-no">
+    	</div>
+    <p align="center">Jason Todd</p>
+    <br>
+
+  
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-wide w3-text-white">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">WHERE I WORK</h3>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Norman, OK<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +1 918-706-5830<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: erikaltoffer@gmail.com<br>
+      </div>
+      <p>Leave me a note here:</p>
+      <form action="mailto:erikaltoffer@gmail.com" method="post" enctype="text/plain">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+    
+<!-- Fourth Parallax With "The End" Text -->
+<div class="bgimg-4 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-wide w3-text-white">THE END<span>
+  </div>
+</div>
+<footer class="w3-center w3-black w3-padding-64 w3-opacity">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div>
+    <a href="https://www.instagram.com/erik_5.56/"><p class="SocialLinks w3-large">Instagram</p></a>
+    </div>
+    
+    <div>
+	    <a href="https://github.com/Flak-A239"><p class="SocialLinks w3-large">GitHub</p></a>
+
+    </div>
+</footer>
+ 
+
+<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+
+<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+
+<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+
+<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
 </body>
 </html>
