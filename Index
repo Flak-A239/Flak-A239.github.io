@@ -97,7 +97,9 @@ body, html {
   </div>
 </div>
 
+<div>
 <script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8" src="https://spark.adobe.com/page-embed.js"></script><a class="asp-embed-link" href="https://spark.adobe.com/page/kxtrv9IjgiSjI/" target="_blank"><img src="https://spark.adobe.com/page/kxtrv9IjgiSjI/embed.jpg?buster=1540846664983" alt="Things that go bump in the night" style="width:100%" border="0" /></a>
+</div>
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
