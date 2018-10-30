@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+x<!DOCTYPE html>
 <html>
     <head>
-<title>Portfolio</title>
+<title>Altoffer</title>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -143,7 +143,7 @@ I'd like to handle any offers and/or requests on a one-to-one level.</p>
     
   	<br>
     <div align="center">
-    <img class="w3-image w3-round" alt="Alex" src="https://lh3.googleusercontent.com/l0ZaFIMV5ssW7jDcQePY86-wQnEPaTSDAcphHjORupwcs4sP9qiowyuz6Lp8TRwRPcLKUruljznjXdjF-H7pnGcoMzTx3iDBs2WTOX_4AAXpS-QIcelSTiwqxn8jDn8REdWLS7RRpP41BfsbK4sx1zP8ujaMUELbOhwT9pF2-5xabXGYf1FlsK7OZmnd-3y1dw14CY03N_GXIO_qE-bdyjZ_DySq6nWaZIUJepW86704TTH-RFcSkCp0sxgd4JD_JWt3kUto1-pXdCLKlbjnCyfV_n9tOmpwwigXQ0lUH_dhyJfkdufCvwkyWLZSVleL2gO1lkzDN-BwystKsOBFELCj1CJrfhQk1e9m9yAoWrC_gkYuC-71TUOwUfE-tWB1qm6sfa_dv-nZV8gWdi8zePZIorlF6jEu3Wm3bS3GicwTnxl9ZxplpjxfPrfhVsbnYPXoUtx4qD5nAQxMdraBwSEOhAqehhbDt7H2QOHDqx9b2tUcoz2xPR5XKxERQx6-iM2-FwihXhQ_Qa1vZC_SrXWr0EtnbiCrynl90ZjYQUs15JRV3OzyV3JozgdLvV4_b_IFPlgf4QvOgXuJosWfkXBgOLM7HQXXDP89R6c=w1440-h720-no">
+    <img width="1000" height="600px" class="w3-image w3-round" alt="Alex" src="https://lh3.googleusercontent.com/-P85bZZtoRdI/WmoYkhJuXkI/AAAAAAAAEWU/hCu1m36hIsUtGSyrU214wB_-gmx8CcqCwCJoC/w530-h265-n-rw/Alex.png">
     </div>
     <p align="center">My Yharnam Wallpaper</p>
         <br>
@@ -152,14 +152,14 @@ I'd like to handle any offers and/or requests on a one-to-one level.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 <br>
 	  
-    <div style="background-color: black" align="center">
-  	<img class="w3-image w3-round" alt="Nazgul" src="https://lh3.googleusercontent.com/PMbgB_XgbQLhD-XN81tpDao5lkhy-aFcwoo9DAtTJscASy8pffryayusnH3Lp9e4W9kTiBP4Ycw2eFPQN6mt7ez59NeKScHq4sNQKjPlYimZ98BJxqiXVDxJIqRuQqJUIxsmocnehl2b3t8-wBFdtZNiZQnRjtEe9sLCSkRDYP4ajTn17y5WVPFDnea_mONSCkV9YFKwbrNWta1VNvDdGyQDkc5hB25UtACEHVck5RdDy76sgjL1Ne1Ur5OABWItGzFvPLKndjsuwM3DTirjzWBQOzsG_tQYNz3ernMqJrmPpVcR-Kcmw1qbAOubYZKZ7v4gelTAZexI7JYiOkzTG-xIQ7btskFqLCiOohQ5WrRZBRNo9Me836WUlKT-Kb5WCxREn7ebxDRk9vu26XqDk59bZnuDakPfZ7TiThU0hlCpA6SZhf6-dYPx7SAOKskvesxmdvnmdv59bFwvdM-zOU1OlD1LQJ4SUT-9V77_O5D84P80RvYw640sHeRtvFqyPUzFdVhBqFT5hYZIbrl9ESuG5z7iC7RlPQ0-ccjpXrv1Z34zvLskzDWgpgQqmDstchxjOoS9BMV9J1DQ1JP9ggudJPCbvqygLKkYfrQ=w462-h640-no">
+    <div align="center">
+  	<img class="w3-image w3-round" alt="Nazgul" src="https://lh3.googleusercontent.com/-9KJTJVzZwOU/WmoYvDDdgtI/AAAAAAAAEW8/iNhMRIpiCnYDy0oEImCPrTEpl-Q570I6gCJoC/w530-h734-n-rw/Nazgul.png">
     </div>
       <p align="center">Nazgul</p>
   	<br>
   	
-    <div align="center" style="background-color: black">
-        <img class="w3-image w3-round" alt="Floki" src="https://lh3.googleusercontent.com/ashR_dvQU56ajhXL0ES-baQWHdzFT-2uFllhNNQHr3urxM7YlRlMK165hNxscVexqfCQwIdkC0wkwSN4Wyy3cq2Fc7_uozimnJdMVM3p-idnPKND78F--5WPAeZiWc2tL6zpd6Js8Bna74nE552MBHB2HVyf7mMAWmkvAaXHh6RGPBD0wyvoO7U7sQ1nYBbTlLGyUXBW2KqXd3iGwhGBTq0Wg9KuKttZ4eDAb_H7_grEvgv4P3p0dPdZUKWCYR-rq9NOEc2bysj4WIYNNcvVk6ZiCe4MxZfSLnwGzopC0hg_RHSqfrbhTGTCztjvO2H8DBxcaeAPHGlzFd1dczzsadiQehk_8Be1W9AA-k1j9VTWCaadI72k-ZqjPz8VrKA6lBay8Ij1IniwymrBUtFIftynR9DHnvYAtPerkUWq6mTGGOG4gMLD9X0BuWWViFk-KSVHBZwhS8JaWMOlJlYObK58KLDtF7rty607oI-lXcnB0-pLh8cMEWSOds4FoSlQp-IzIDkJMy4virRgzWContPY0B7yp_zbepL8B90j_DoZ5iSGALYjrSTmB6gUgxdh20nCikEhxvprnhmSZGFHGxhxV7ki5E-leRCwjOM=w678-h786-no">
+    <div align="center">
+        <img class="e3-image w3-round" alt="Floki" src="https://lh3.googleusercontent.com/-RIw75GGcHps/WmoYtJ8IUvI/AAAAAAAAEWw/S0fVwCcJ9O8ALTwtn3dDSq4lDiepRujKACJoC/w530-h614-n-rw/IMG_20180112_125501_669.jpg">
     </div>
     <p align="center">Floki</p>
     <br>
@@ -168,18 +168,29 @@ I'd like to handle any offers and/or requests on a one-to-one level.</p>
 		<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
     </div>
     
-  	<div style="background-color: #1c1c1c" align="center">
-    <img class="e3-image w3-round" alt="Good Hunter" src="https://lh3.googleusercontent.com/J5Cmr8lF0kihxiCrl9qVGQi7DF4QmNn5ksEmQJVPek5olJWpCUUf2vc1tLlJnazRO-Cs9cS1zyT6oBUcFaSBdzOAcj8fGosef-gorwT6yHs_08DygCBVhAuqdW8ZILi9gCsasTUnSI4itb6N0MmXv5JT0UHB8BlfQcLu5gpcvHAB1IEqV4qo8nvct3ZS33obHX2kHdgvd9KZwrJG9GW76iBuSuXZ9wmB_aI3hk04nGD3jCPAssqUJlxNNf0bKqadS_pPJqcuZ-zWgVeQ-02POC7z63y6fGf9pLN1dEAksSpIZGqj_IWcrkkJNUkaeGyU8RDYYdjP8kIJ-mYfnqcBgpZEr8IBr_oVUmBH_J6tZm8e9KRkEiWjSCJ9T-sVqpwoy7TPwk5L9lchZWxQvDB16bidgcka9T20j6M4-k-QX_EHM7jemY-fSqaV0do1vISrAXDGTes83uyX_vITtZOxd35zcBvmJLT27I3OML0CFMIKQH7R8P7it60OyYf2guiH-biiOqiCJJ2FaI2u0GE0sDfD-DGrbj9V1ezZ684qA2sCMDT9zgwmHa4Rs6wgeNIGEtfIJyyDsrX6ZU900ebAbNeKFQ6V0kn3GBlLGLw=w505-h734-no">
+  	<div style="background-color: #0e0e0e" align="center">
+    <img height="650" class="e3-image w3-round" alt="Good Hunter" src="https://lh3.googleusercontent.com/-4ekUqeFgZK8/WmtCEA-ls9I/AAAAAAAAEcQ/snbPavudYrwQQ5nNUN_tl4UeDl5FDx_lgCJoC/w530-h331-n-rw/Bloodborne%2BWall.png">
     </div>
     <p align="center">Good Hunter</p>
     <br>
     
     <div style="background-color: #7e7e7e" align="center">
-    	<img class="e3-image w3-round" alt="Red Hood" src="https://lh3.googleusercontent.com/bk2nwBYBrYLJpfcrDkjyjf80BXCLVzXUMB2JxZt9O4vGASEpDXLo2syDVVxBsW8jvZqxHmUQbgZ_0e5NB3HfWmMfY13HJIkp7jZFYQ2nhkl_utlChax70aiIHJaBNkAi2AiDRfa9kZptuRJJOWqA1rVkHvYSWCstLIJ3TjOcBJJaeK5EhwhuDGCS-aEAlh3Rhkfvvf6Mk7P-9OcyMSHdw7ivLWSnNX6cM5tPPkADw1d3UvKtNAEtu9ij3aaOiLKMn8jkSnY5K0Zu7JJINTA1P2k73V4NfnhJNEVsbH_63g2D8AbwIrfWbboaRK3kF3VgMyP2-jDDTA0xUBpbg60kWlpFG4D_E_pHrG_s_U17jbxsxjk_KPdGIJjR-3zN3DwL8e6xmZD2A3pwzFwbkWPpbfjRO86arqmShmAAXkD2w3UMKEigLi_hE7UvPgBWwivVCs9S42KSOfWXjBk-sZ9xzN-lxd5dMfsru7DqAuKrEfZeUUzF4ONuZ2MEyr3mr-iHPdoA1h1QcaqyVp58pmq0B95YKuV7Jls2jks9bgfk5uanEQqauvc0ogXwGP2qa61k3WkDi0B80n5KXH6tRTnq04F5gr-07wnZrD8fxXY=w564-h705-no">
+    	<img class="e3-image w3-round" alt="Red Hood" src="https://lh3.googleusercontent.com/-Bn6X5jG5KTM/WmoYoRXUsiI/AAAAAAAAEWY/ZmQv-yxh4tsV1vTcTWMGr6iJ4CeTWZlqQCJoC/w530-h663-n-rw/Red%2BHood.png">
     	</div>
     <p align="center">Jason Todd</p>
     <br>
-
+    
+    <div style="background-color:black" align="center">
+    	<img class="e3-image w3-round" alt="Rorschach" src="https://lh3.googleusercontent.com/-JI4M_WyH8wo/WnsT5WT5yuI/AAAAAAAAEi8/FVRBfXEOsNI8qXgVrfK0GmKpjE-wD9vkgCJoC/w530-h674-n-rw/Rorschach.png">
+    </div>
+    <p align="center">Rorschach</p>
+    <br>
+    
+    <div style="background-color: black" align="center">
+    	<img height="600px" class="e3-image w3-round" alt="Black Panther" src="https://lh3.googleusercontent.com/-ou0fZk0Grzo/WoMk9t0iXtI/AAAAAAAAEmE/lto6k2uL1o0S-CXCJvkpC3lRwrrwR9vaQCJoC/w530-h298-n-rw/Black%2BPanther.png">
+    </div>
+<p align="center">T'Challa</p>
+<br>
   
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
